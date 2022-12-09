@@ -1,0 +1,20 @@
+{
+  "name": "6_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "cyp": "cypress run",
+    "cyp:chrome": "cypress run --browser chrome --headed",
+    "cyp:chrless": "cypress run --browser chrome --headless",
+    "cyp:electron": "cypress run --browser electron --headed",
+    "cyp:eleless": "cypress run --browser electron --headless"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^11.2.0"
+  }
+}
