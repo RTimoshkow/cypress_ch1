@@ -12,7 +12,7 @@ let favorite;
 
 describe('Authorization testing', () => {
   
-  it.only('Checking the page display.', () => {
+  it('Checking the page display.', () => {
     cy.contains('Books list').should('be.visible');
     cy.get('a > span > span').should('have.class', 'ml-2');
   });
@@ -43,7 +43,7 @@ describe('Authorization testing', () => {
 
 })
 
-describe.skip('Books list testing', () => {
+describe('Books list testing', () => {
 
   beforeEach(() => {
     login = 'bropet@mail.ru';
